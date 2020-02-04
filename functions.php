@@ -95,14 +95,14 @@ Call the function.
 */
 $length = 12;
 $width = 6;
-function calculateRectangleArea($length, $width)
+function calculateRectangleArea()
 {
-
+	global $length, $width;
 	$area = $length * $width;
 	echo $area;
 }
 
-calculateRectangleArea($length, $width);
+calculateRectangleArea();
 
 
 
